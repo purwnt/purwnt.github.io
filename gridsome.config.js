@@ -7,6 +7,5 @@
 module.exports = {
   siteName: 'Gridsome',
   plugins: [],
-  siteName: 'https://purwnt.github.io',
-  pathPrefix: '/purwnt.github.io'
+  siteName: 'https://purwnt.github.io'
 }
