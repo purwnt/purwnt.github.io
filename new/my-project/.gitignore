@@ -7,4 +7,3 @@ dist
 .env
 .env.*
 static/rss.xml
-node_modules
