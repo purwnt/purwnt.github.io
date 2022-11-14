@@ -1,26 +1,13 @@
 {
-  "name": "belajarpython",
-  "version": "1.0.0",
   "private": true,
-  "description": "Belajarpython",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
   },
-  "dependencies": {
-    "gatsby": "^2.26.1",
-    "gatsby-image": "^2.9.0",
-    "gatsby-plugin-google-analytics": "^2.9.0",
-    "gatsby-plugin-sharp": "^2.12.0",
-    "gatsby-source-filesystem": "^2.9.0",
-    "gatsby-transformer-sharp": "^2.10.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+  "devDependencies": {
+    "@nuxt/content": "^2.2.1",
+    "nuxt": "^3.0.0-rc.13"
   }
 }
