@@ -13,4 +13,6 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs
+      - run: npm i
+      - run: npm run build
       - run: mkdocs gh-deploy --force
