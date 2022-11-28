@@ -13,6 +13,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs
+      - run: pip install mkdocs-meta-descriptions-plugin
       - run: npm i
-      - run: npm run build
+      - run: npm run tw:build
       - run: mkdocs gh-deploy --force
