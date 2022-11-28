@@ -4,7 +4,6 @@ theme:
     name: null
     custom_dir: 'belajarpython_theme/' 
 plugins:
-    - git-authors
     - meta-descriptions:
         export_csv: false
         quiet: false
