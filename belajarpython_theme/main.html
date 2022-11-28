@@ -1,21 +1,15 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/vs.min.css">
-  <link href="/style.css" rel="stylesheet">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
-  <script>hljs.highlightAll();</script>
-</head>
-
-<body class="bg-gray-200">
-  <button class="bg-blue-500 px-3 py-2 rounded text-sm">Join</button>
-  <div
-    class="bg-[url(https://camo.githubusercontent.com/40b8099e638526dce298f8dc91246173d56e389a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38332f427562626c65736f72742d6564697465642d636f6c6f722e7376672f32323070782d427562626c65736f72742d6564697465642d636f6c6f722e7376672e706e67)] w-60 h-20 rounded">
-    Hello
-  </div>
-  {{ page.content }}
+<html lang="id">
+{%- include "header.html" %}
+<body class="overflow-x-hidden">
+  {%- include "navbar.html" %}
+  {% if page.is_homepage %}
+  {%- include "landing.html" %}
+  {% else %}
+  {%- include "content.html" %}
+  {% endif %}
+  {%- include "footer.html" %}
+  {%- include "analytics.html" %}
 </body>
 
 </html>

@@ -1,0 +1,3 @@
+mkdocs==1.4.2
+mkdocs-categories-plugin==0.2.1
+mkdocs-meta-descriptions-plugin==2.1.0

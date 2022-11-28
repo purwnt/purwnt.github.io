@@ -1,54 +1,40 @@
 ---
-layout: tutorial
-title: Tipe Data Python
-order: 6
+layout: blank-page
+title: About
+permalink: /about/
 ---
 
-Tipe data adalah suatu media atau memori pada komputer yang digunakan untuk menampung informasi.
-
-Python sendiri mempunyai tipe data yang cukup unik bila kita bandingkan dengan bahasa pemrograman yang lain.
-
-Berikut adalah tipe data dari bahasa pemrograman Python :
-
-| Tipe Data     | Contoh                    | Penjelasan                                                                        |
-| ------------- |-------------------------- | --------------------------------------------------------------------------------- |
-| Boolean       |	`True` atau `False`	    | Menyatakan benar `True` yang bernilai `1`, atau salah `False` yang bernilai `0`   |
-| String        |	`"Ayo belajar Python"`  | Menyatakan karakter/kalimat bisa berupa huruf angka, dll (diapit tanda `"` atau `'`)|
-| Integer       |	`25` atau `1209`        | Menyatakan bilangan bulat                                                         |
-| Float         |	`3.14` atau `0.99`      | Menyatakan bilangan yang mempunyai koma                                           |
-| Hexadecimal   |	`9a` atau `1d3`	        | Menyatakan bilangan dalam format heksa (bilangan berbasis 16)                     |
-| Complex       |	`1 + 5j  `              | Menyatakan pasangan angka real dan imajiner                                       |
-| List          |	`['xyz', 786, 2.23]`    | Data untaian yang menyimpan berbagai tipe data dan isinya bisa diubah-ubah        |
-| Tuple         |	`('xyz', 768, 2.23)`    | Data untaian yang menyimpan berbagai tipe data tapi isinya tidak bisa diubah      |
-| Dictionary    |	`{'nama': 'adi','id':2}`| Data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai |
-
-Untuk mencoba berbagai macam tipe data, silahkan coba script Python dibawah ini.
-
-```python
-@requires_authorization(roles=["ADMIN"])
-def somefunc(param1='', param2=0):
-    r'''A docstring'''
-    if param1 > param2: # interesting
-        print 'Gre\'ater'
-    return (param2 - param1 + 1 + 0b10l) or None
-
-class SomeClass:
-    pass
-
->>> message = '''interpreter
-... prompt'''
-```
-
-
----
-
-> [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/tipe-data-python.md)
-
-<div class="row navigation-tutorial">
-    <div class="col-md-6 prev-tutorial">
-        <a href="/tutorial/komentar-python"><i class="fas fa-arrow-circle-left"></i>Komentar Python</a>
-    </div>
-    <div class="col-md-6 next-tutorial">
-        <a href="/tutorial/variabel-python" class="hoverable">Variabel Python<i class="fas fa-arrow-circle-right"></i></a>
-    </div>
+<div align="center">
+  <img src="https://belajarpython.com/images/logo-belajarpython-for-github.png"><br><br>
 </div>
+
+-----------------
+
+# [Belajarpython](https://belajarpython.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/belajarpythoncom/belajarpython.com/blob/master/LICENSE)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://belajarpython.com/docs/how-to-contribute.html) [![Open Source Helpers](https://www.codetriage.com/belajarpythoncom/belajarpython.com/badges/users.svg)](https://www.codetriage.com/belajarpythoncom/belajarpython.com)
+
+Belajarpython adalah situs kolaboratif tutorial pemrograman Python bahasa Indonesia
+
+* **Ikuti Tutorial:** Mulai belajar bahasa pemrograman python dari tingkat dasar dengan tutorial yang dikhususkan untuk pemula agar lebih cepat mempelajari bahasa pemrograman python.
+* **Baca Artikel:** Baca artikel terbaru dan terpopuler tentang bahasa pemrograman python dengan beragam topik. Artikel dibuat oleh komunitas dan ditujukan untuk komunitas.
+* **Ajukan Pertanyaan:** Ajukan setiap pertanyaan yang anda temui tentang bahasa pemrograman python. Setiap orang di komunitas akan segera menyelesaikan setiap pertanyaan pengguna.
+
+
+## Kontribusi
+
+Belajarpython adalah situs terbuka (open source) yang dikembangkan oleh developer untuk developer. Semua orang baik dari kalangan :trollface: developer, :man: mahasiswa, :older_woman: pengajar, bahkan :baby: anak kecil yang baru mempelajari bahasa pemrograman python bisa ikut memberikan :heart: kontribusinya [disini](https://github.com/belajarpythoncom/belajarpython.com/blob/master/CONTRIBUTING.md)
+
+### [Code of Conduct](https://belajarpython.com/docs/codeofconduct)
+
+Belajarpython telah mengadopsi Kode Etik yang kami harapkan akan diikuti oleh peserta proyek terbuka ini. Mohon baca [full text](https://github.com/belajarpythoncom/belajarpython.com/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+
+### [Panduan Kontribusi](https://belajarpython.com/contribute)
+
+Baca [panduan kontribusi](https://belajarpython.org/contribute) dari kami untuk mempelajari tentang proses pengembangan konten disini.
+
+### Good First Issues
+
+Untuk membantu Anda membuat kaki Anda basah dan membuat Anda terbiasa dengan proses kontribusi kami, kami memiliki daftar [good first issues](https://github.com/belajarpythoncom/belajarpython.com/issues) yang mengandung bug yang memiliki lingkup yang relatif terbatas. Ini adalah tempat yang bagus untuk memulai.
+
+### License
+
+Belajarpython is [MIT licensed](https://github.com/belajarpythoncom/belajarpython.com/blob/master/LICENSE).

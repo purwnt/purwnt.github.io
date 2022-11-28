@@ -7,7 +7,7 @@ image: /images/sastrawi.jpg
 ---
 
 ---
-![Sastrawi NLP Bahasa Indonesia](/images/sastrawi.jpg "NLP Bahasa Indonesia")
+![Sastrawi NLP Bahasa Indonesia](/img/sastrawi.jpg "NLP Bahasa Indonesia")
 
 Sastrawi adalah perpustakaan PHP sederhana yang memungkinkan Anda untuk mengurangi kata-kata yang terinfleksi dalam Bahasa Indonesia (Bahasa Indonesia) ke bentuk dasarnya (batang)
 
@@ -36,7 +36,7 @@ Lalu kata kunci pencarian juga dijadikan kata dasar:
 
 #### Penggunaan
 
-{% highlight python %}
+```python
 # import StemmerFactory class
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
@@ -53,6 +53,10 @@ print(output)
 
 print(stemmer.stem('Mereka meniru-nirukannya'))
 # mereka tiru
-{% endhighlight %}
+```
 
 Untuk lebih lengkapnya silahkan lihat di [Github](https://github.com/har07/PySastrawi)
+
+
+---
+> *penulis: Purwanto [https://github.com/purwnt](https://github.com/purwnt)*

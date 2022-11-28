@@ -7,8 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "npx tailwindcss -i ./tailwind.css -o ./belajarpython_theme/style.css --watch",
-    "build": "npx tailwindcss -i ./tailwind.css -o ./belajarpython_theme/style.css --minify"
+    "tw:dev": "npx tailwindcss -i ./tailwind.css -o ./belajarpython_theme/css/base.css --watch",
+    "tw:build": "npx tailwindcss -i ./tailwind.css -o ./belajarpython_theme/css/base.css --minify"
   },
   "repository": {
     "type": "git",
